@@ -1,20 +1,20 @@
-package com.rafael.fizzbuzz;
+package main.com.rafael.fizzbuzz;
+
+import com.rafael.fizzbuzz.Valor;
 
 public class FizzBuzz {
 
     private String resultado = "";
 
-    private Boolean eDivisivelPor(Integer dividendo, Integer divisor) {
-        return ((dividendo % divisor) == 0);
-    }
-
     public String retorna(Integer numero) {
 
-        if (eDivisivelPor(numero, 3)) {
+        Valor valor = new Valor(numero);
+
+        if (valor.eDivisivelPor(3)) {
             resultado = "Fizz";
         }
 
-        if (eDivisivelPor(numero, 5)) {
+        if (valor.eDivisivelPor(5)) {
             resultado += "Buzz";
         }
 

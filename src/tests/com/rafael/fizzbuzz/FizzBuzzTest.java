@@ -1,6 +1,6 @@
-package com.rafael.fizzbuzz.testes;
+package tests.com.rafael.fizzbuzz;
 
-import com.rafael.fizzbuzz.FizzBuzz;
+import main.com.rafael.fizzbuzz.FizzBuzz;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

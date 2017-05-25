@@ -1,4 +1,4 @@
-package com.rafael.fizzbuzz;
+package main.com.rafael.fizzbuzz;
 
 public class ExibeLista {
 
