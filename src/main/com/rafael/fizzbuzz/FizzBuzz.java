@@ -4,11 +4,9 @@ import com.rafael.fizzbuzz.Valor;
 
 public class FizzBuzz {
 
-    private String resultado = "";
+    public String retorna(Valor valor) {
 
-    public String retorna(Integer numero) {
-
-        Valor valor = new Valor(numero);
+        String resultado = "";
 
         if (valor.eDivisivelPor(3)) {
             resultado = "Fizz";
@@ -19,7 +17,7 @@ public class FizzBuzz {
         }
 
         if (resultado.isEmpty()) {
-            resultado = numero.toString();
+            resultado = valor.toString();
         }
 
         return resultado;

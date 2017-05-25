@@ -11,4 +11,8 @@ public class Valor {
     public Boolean eDivisivelPor(Integer divisor) {
         return ((this.numero % divisor) == 0);
     }
+
+    public String toString() {
+        return this.numero.toString();
+    }
 }
